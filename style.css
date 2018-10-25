@@ -1,8 +1,14 @@
 * {
         box-sizing: border-box;
 }
+body {
+        margin: 0;
+        direction: rtl;
+        text-align: right;
+}
 .dropdown ul {
         list-style: none;
+        padding: 0px;
 }
 .dropdown a {
         text-decoration: none;
@@ -12,61 +18,65 @@
         font-family: Arial, Helvetica, sans-serif;
 }
 
-body {
-        margin: 0;
-        direction: rtl;
-        text-align: right;
-}
-#home {padding-left: 12px;}
-#input {
-        position: absolute;
-        top: 20px;
-        right: 812px;
-}
-#search {
-        position: absolute;
-        top: 20px;
-        right: 1000px;
-        background-color: rgb(144,144,144);
-        padding: 0;
-}
-#lang {
-        position: absolute;
-        top: 20px;
-        right: 750px;
-        /* background-color: rgb(144,144,144); */
-        /* padding: 0; */
-}
+
 
 
 header {
         height: 105px;
         background: linear-gradient(to bottom, rgb(144,144,144) 90%, rgb(170, 170, 170));
         position: relative;
+        
 }
-header>div>a {
+#containerforheader {
+        width: 900px;
         position: absolute;
-        top:35px;
-        right: 460px;
+        left: 200px;
+        height: 100%;
+
+
+}
+#searchcontainer {
+        position: absolute;
+        left: 0px;
+        top: 20px;
 }
 #menu-container {
         position: absolute;
         top: 60px;
-        right: 560px;
+        left: 0px;
+      
+       
 }
+#home {
+        padding-left: 12px;
+}
+
+
+
+
+
+
+#logo {
+        display: block;
+        width: 142px;
+        height: 93px;
+        position: absolute;
+        bottom: -20px;
+        right: -8px;
+}
+
+
 .clearfix::after {
         content: "";
         clear: both;
         display: table;
 }
 .headrop {
-        padding-left: 12px;
-        padding-right: 0px;
+        border-right: 2px solid white;
+        padding-left: 10px;
+        padding-right: 10px;
 }
-#menu-container {
-        width: 780px;
-        margin: 0 auto;
-}
+
 .dropdown, #menu-container>div>ul>li {
         float: right;
         
@@ -89,21 +99,79 @@ header>div>a {
 .menu-btn:hover  {
     background-color: red;
 }
+
 #container-fields {
-        border: 1px solid black;
         width: 900px;
         height: 355px;
         margin: 0 auto;
         margin-top: 30px;
 }
 .fieldiv {
-        border: 1px solid black;
         width: 293px;
         height: 355px;
         float: right;
+        position: relative;
+        border-bottom-right-radius: 25px;
 
+
+}
+.fieldiv img {
+        border-bottom-right-radius: 25px;
 }
 #midfield {
         margin: 0px 9.5px; /*to change to 10.5px after removing the border*/
 
 }
+.gray {
+        position: absolute;
+        bottom: 8px;
+        right: 8px;
+        background-color: rgba(144,144,144,0.8);
+        width: 248px;
+        height: 97px;
+        border-bottom-right-radius: 25px;
+        color: white;
+}
+.gray p {
+        margin: 0px;
+        width: 228px;
+        height: 52px;
+        font-size: 14px;
+        position: absolute;
+        bottom: 18px;
+        right: 10px;
+}
+.gray h3 {
+        width: 228px;
+        height: 14px;
+        font-size: 14px;
+        font-weight:600;
+        font-family: Arial, Helvetica, sans-serif;
+        position: absolute;
+        bottom: 60px;
+        right: 10px;
+}
+.gray>a {
+        position: absolute;
+        left: 0px;
+        bottom: 0px;
+}
+#container-fieldssec {
+        width: 900px;
+        height: 216px;
+        margin: 0 auto;
+        margin-top: 30px;
+}
+.fieldiv2 {
+        width: 293px;
+        float: right;
+        position: relative;
+}
+.fieldiv2 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        font-weight: 600px;
+        color:rgb(87, 87, 87);
+}
+
+

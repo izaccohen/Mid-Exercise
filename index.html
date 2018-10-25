@@ -1,186 +1,366 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
 </head>
+
 <body>
-    <header>
-<div>
-    <div>
-            <a id="lang" href="#"  >english</a>
-    </div>
-    <button id="search">
-        <img src="images\search_button.png">
-    </button>
-    <input type="text"  id="input" placeholder="רשום מילת חיפוש">
-</div>
-<div>
-    <a href="#"><img src="images\paz_logo.png"></a>
+
+        <header>
+                <div id="containerforheader">
 
 
-</div>
-         <!-- building the menu div -->
-        <div id="menu-container"  class="clearfix">
-                <div class="dropdown">
-                        <ul class="clearfix">
-                        <li id="home"><a href="#"><img src="images\menu_home.png" ></a></li>
-                        <li><img src="images\menu_sep.png" ></li>
-                        </ul>
+                        <div id="searchcontainer">
+                                
+                                <a id="lang" href="#">english</a>
+                                <input type="text" id="input" placeholder="רשום מילת חיפוש">
+                                <img  src="images\search_button.png">
+                                
+                                
+                        </div>
+                        <a id="logo" href="#">
+                                        <img src="images\paz_logo.png">
+                                </a>
+                        
+                        <!-- building the menu div -->
+                        <div id="menu-container" class="clearfix">
+                                <div class="dropdown">
+                                        <ul class="clearfix">
+                                                
+                                                <li id="home">
+                                                        <a href="#">
+                                                                <img src="images\menu_home.png">
+                                                        </a>
+                                                </li>
+                                                
+                                        </ul>
+                                </div>
+                                <div class="dropdown">
+                                        <ul class="clearfix">
+                                                <li>
+                                                        <a class="headrop" href="#" class="menu-btn">אודות</a>
+                                                </li>
+                                                
+
+
+                                        </ul>
+                                        <ul class="dropdown-content">
+                                                <li>
+                                                        <a href="#" class="menu-btn">אודות</a>
+                                                </li>
+                                                <li>
+                                                        <a href="#" class="menu-btn">היסטוריה</a>
+                                                </li>
+                                                <li>
+                                                        <a href="#" class="menu-btn">חזון וערכים</a>
+                                                </li>
+                                                <li>
+                                                        <a href="#" class="menu-btn">מבנה הקבוצה</a>
+                                                </li>
+                                                <li>
+                                                        <a href="#" class="menu-btn">חברי דירקטוריון</a>
+                                                </li>
+                                                <li>
+                                                        <a href="#" class="menu-btn">הנהלת הקבוצה</a>
+                                                </li>
+                                                <li>
+                                                        <a href="#" class="menu-btn">פרסים והוקרה</a>
+                                                </li>
+
+                                        </ul>
+
+                                </div>
+                                <div class="dropdown">
+                                        <ul class="clearfix">
+                                                <li>
+                                                        <a class="headrop" href="#" class="menu-btn">חטיבות</a>
+                                                </li>
+                                                
+
+                                        </ul>
+                                        <ul class="dropdown-content">
+                                                <li>
+                                                        <a href="#" class="menu-btn">אודות</a>
+                                                </li>
+                                                <li>
+                                                        <a href="#" class="menu-btn">אודות</a>
+                                                </li>
+                                                <li>
+                                                        <a href="#" class="menu-btn">אודות</a>
+                                                </li>
+                                                <li>
+                                                        <a href="#" class="menu-btn">אודות</a>
+                                                </li>
+                                                <li>
+                                                        <a href="#" class="menu-btn">אודות</a>
+                                                </li>
+                                                <li>
+                                                        <a href="#" class="menu-btn">אודות</a>
+                                                </li>
+                                                <li>
+                                                        <a href="#" class="menu-btn">אודות</a>
+                                                </li>
+
+                                        </ul>
+
+                                </div>
+                                <div class="dropdown">
+                                        <ul class="clearfix">
+                                                <li>
+                                                        <a class="headrop" href="#" class="menu-btn">אחריות תאגידית</a>
+                                                </li>
+                                                
+
+                                        </ul>
+                                        <ul class="dropdown-content">
+                                                <li>
+                                                        <a href="#" class="menu-btn">אודות</a>
+                                                </li>
+                                                <li>
+                                                        <a href="#" class="menu-btn">אודות</a>
+                                                </li>
+                                                <li>
+                                                        <a href="#" class="menu-btn">אודות</a>
+                                                </li>
+                                                <li>
+                                                        <a href="#" class="menu-btn">אודות</a>
+                                                </li>
+                                                <li>
+                                                        <a href="#" class="menu-btn">אודות</a>
+                                                </li>
+                                                <li>
+                                                        <a href="#" class="menu-btn">אודות</a>
+                                                </li>
+                                                <li>
+                                                        <a href="#" class="menu-btn">אודות</a>
+                                                </li>
+
+                                        </ul>
+
+                                </div>
+                                <div class="dropdown">
+                                        <ul class="clearfix">
+                                                <li>
+                                                        <a class="headrop" href="#" class="menu-btn">קשרי משקיעים</a>
+                                                </li>
+                                                
+
+                                        </ul>
+                                        <ul class="dropdown-content">
+                                                <li>
+                                                        <a href="#" class="menu-btn">אודות</a>
+                                                </li>
+                                                <li>
+                                                        <a href="#" class="menu-btn">אודות</a>
+                                                </li>
+                                                <li>
+                                                        <a href="#" class="menu-btn">אודות</a>
+                                                </li>
+                                                <li>
+                                                        <a href="#" class="menu-btn">אודות</a>
+                                                </li>
+                                                <li>
+                                                        <a href="#" class="menu-btn">אודות</a>
+                                                </li>
+                                                <li>
+                                                        <a href="#" class="menu-btn">אודות</a>
+                                                </li>
+                                                <li>
+                                                        <a href="#" class="menu-btn">אודות</a>
+                                                </li>
+
+                                        </ul>
+
+                                </div>
+                                <div class="dropdown">
+                                        <ul class="clearfix">
+                                                <li>
+                                                        <a class="headrop" href="#" class="menu-btn">התחנות שלנו</a>
+                                                </li>
+                                                
+
+                                        </ul>
+                                        <ul class="dropdown-content">
+                                                <li>
+                                                        <a href="#" class="menu-btn">אודות</a>
+                                                </li>
+                                                <li>
+                                                        <a href="#" class="menu-btn">אודות</a>
+                                                </li>
+                                                <li>
+                                                        <a href="#" class="menu-btn">אודות</a>
+                                                </li>
+                                                <li>
+                                                        <a href="#" class="menu-btn">אודות</a>
+                                                </li>
+                                                <li>
+                                                        <a href="#" class="menu-btn">אודות</a>
+                                                </li>
+                                                <li>
+                                                        <a href="#" class="menu-btn">אודות</a>
+                                                </li>
+                                                <li>
+                                                        <a href="#" class="menu-btn">אודות</a>
+                                                </li>
+
+                                        </ul>
+
+                                </div>
+                                <div class="dropdown">
+                                        <ul class="clearfix">
+                                                <li>
+                                                        <a class="headrop" href="#" class="menu-btn">קריירה</a>
+                                                </li>
+                                                
+
+                                        </ul>
+                                        <ul class="dropdown-content">
+                                                <li>
+                                                        <a href="#" class="menu-btn">אודות</a>
+                                                </li>
+                                                <li>
+                                                        <a href="#" class="menu-btn">אודות</a>
+                                                </li>
+                                                <li>
+                                                        <a href="#" class="menu-btn">אודות</a>
+                                                </li>
+                                                <li>
+                                                        <a href="#" class="menu-btn">אודות</a>
+                                                </li>
+                                                <li>
+                                                        <a href="#" class="menu-btn">אודות</a>
+                                                </li>
+                                                <li>
+                                                        <a href="#" class="menu-btn">אודות</a>
+                                                </li>
+                                                <li>
+                                                        <a href="#" class="menu-btn">אודות</a>
+                                                </li>
+
+                                        </ul>
+
+                                </div>
+                                <div class="dropdown">
+                                        <ul class="clearfix">
+                                                <li>
+                                                        <a class="headrop" href="#" class="menu-btn">חדשות ומדיה</a>
+                                                </li>
+                                                
+
+                                        </ul>
+                                        <ul class="dropdown-content">
+                                                <li>
+                                                        <a href="#" class="menu-btn">אודות</a>
+                                                </li>
+                                                <li>
+                                                        <a href="#" class="menu-btn">אודות</a>
+                                                </li>
+                                                <li>
+                                                        <a href="#" class="menu-btn">אודות</a>
+                                                </li>
+                                                <li>
+                                                        <a href="#" class="menu-btn">אודות</a>
+                                                </li>
+                                                <li>
+                                                        <a href="#" class="menu-btn">אודות</a>
+                                                </li>
+                                                <li>
+                                                        <a href="#" class="menu-btn">אודות</a>
+                                                </li>
+                                                <li>
+                                                        <a href="#" class="menu-btn">אודות</a>
+                                                </li>
+
+                                        </ul>
+
+                                </div>
+
+
+
+                        </div>
                 </div>
-            <div class="dropdown">
-                <ul class="clearfix">
-                <li><a  class="headrop"  href="#" class="menu-btn">אודות</a></li>
-                <li><img src="images\menu_sep.png" ></li>
+        </header>
+        <main>
+                <div id="container-fields" class="clearfix">
+                        <div class="fieldiv">
+                                <img src="images\1908364606615453350.JPG">
+                                <div class="gray">
+                                        <h3>קמעונאות ומסחר</h3>
+                                        <p>במסגרת חטיבת הקו"מ של פז מתבצעת הפעילות הקמעוונאית, הנדלניתת והשיווקית של הקבוצה
+                                                שמתאפיינת בחדשנות, יעילות ומובילות. החטיבה פועלת...</p>
+                                        <a href="#">קרא עוד
+                                                <img src="images\read_more_white.png">
+                                        </a>
+                                </div>
+
+                        </div>
+                        <div id="midfield" class="fieldiv">
+                                <img src="images\Picture-046410251500.jpg">
+                                <div class="gray">
+                                        <h3>זיקוק</h3>
+                                        <p>במסגרת חטיבת הקו"מ של פז מתבצעת הפעילות הקמעוונאית, הנדלניתת והשיווקית של הקבוצה
+                                                        שמתאפיינת בחדשנות, יעילות ומובילות. החטיבה פועלת...</p>
+                                        <a href="#">קרא עוד
+                                                <img src="images\read_more_white.png">
+                                        </a>
+                                        </div>
+
+
+                        </div>
+                        <div class="fieldiv">
+                                <img src="images\╫ñ╫צ╫º╫¿_-291_354410564000.jpg">
+                                <div class="gray">
+                                        <h3>תעשיות ושירותים</h3>
+                                        <p>במסגרת חטיבת הקו"מ של פז מתבצעת הפעילות הקמעוונאית, הנדלניתת והשיווקית של הקבוצה
+                                                        שמתאפיינת בחדשנות, יעילות ומובילות. החטיבה פועלת...</p>
+                                        <a href="#">קרא עוד
+                                                <img src="images\read_more_white.png">
+                                        </a>
+                                </div>
+
+
+                        </div>
+
+                </div>
+                <div id="container-fieldssec" class="clearfix">
+                                <div class="fieldiv2">
+                                        <h3>כרטיס אשראי שופרסל וכרטיס אשראי יש</h3>
+
+                                        <img src="images\paz_250x110059890678.jpg">
+                                        <a href="#">לפרטים נוספים
+                                                        <img src="images\read_more_yellow.png">
+                                                </a>
+                                        
+        
+                                </div>
+                                <div class="fieldiv2">
+                                                <h3>כרטיס אשראי שופרסל וכרטיס אשראי יש</h3>
+        
+                                                <img src="images\250X110571325734.jpg">
+                                                <a href="#">לפרטים נוספים
+                                                                <img src="images\read_more_yellow.png">
+                                                        </a>
+                                                
                 
-
-                </ul>
-                <ul class="dropdown-content">
-                        <li><a href="#" class="menu-btn">אודות</a></li>
-                        <li><a href="#" class="menu-btn">היסטוריה</a></li>
-                        <li><a href="#" class="menu-btn">חזון וערכים</a></li>
-                        <li><a href="#" class="menu-btn">מבנה הקבוצה</a></li>
-                        <li><a href="#" class="menu-btn">חברי דירקטוריון</a></li>
-                        <li><a href="#" class="menu-btn">הנהלת הקבוצה</a></li>
-                        <li><a href="#" class="menu-btn">פרסים והוקרה</a></li>
-
-                </ul>
-
-            </div>
-            <div class="dropdown">
-                    <ul class="clearfix">
-                    <li><a  class="headrop"  href="#" class="menu-btn">אודות</a></li>
-                    <li><img src="images\menu_sep.png" ></li>
-    
-                    </ul>
-                    <ul class="dropdown-content">
-                            <li><a href="#" class="menu-btn">אודות</a></li>
-                            <li><a href="#" class="menu-btn">אודות</a></li>
-                            <li><a href="#" class="menu-btn">אודות</a></li>
-                            <li><a href="#" class="menu-btn">אודות</a></li>
-                            <li><a href="#" class="menu-btn">אודות</a></li>
-                            <li><a href="#" class="menu-btn">אודות</a></li>
-                            <li><a href="#" class="menu-btn">אודות</a></li>
-    
-                    </ul>
-    
-            </div>
-                <div class="dropdown">
-                        <ul class="clearfix">
-                        <li><a  class="headrop"  href="#" class="menu-btn">אודות</a></li>
-                        <li><img src="images\menu_sep.png" ></li>
+                                </div>
+                                <div class="fieldiv2">
         
-                        </ul>
-                        <ul class="dropdown-content">
-                                <li><a href="#" class="menu-btn">אודות</a></li>
-                                <li><a href="#" class="menu-btn">אודות</a></li>
-                                <li><a href="#" class="menu-btn">אודות</a></li>
-                                <li><a href="#" class="menu-btn">אודות</a></li>
-                                <li><a href="#" class="menu-btn">אודות</a></li>
-                                <li><a href="#" class="menu-btn">אודות</a></li>
-                                <li><a href="#" class="menu-btn">אודות</a></li>
-        
-                        </ul>
-        
-                </div>
-                <div class="dropdown">
-                        <ul class="clearfix">
-                        <li><a  class="headrop"  href="#" class="menu-btn">אודות</a></li>
-                        <li><img src="images\menu_sep.png" ></li>
-        
-                        </ul>
-                        <ul class="dropdown-content">
-                                <li><a href="#" class="menu-btn">אודות</a></li>
-                                <li><a href="#" class="menu-btn">אודות</a></li>
-                                <li><a href="#" class="menu-btn">אודות</a></li>
-                                <li><a href="#" class="menu-btn">אודות</a></li>
-                                <li><a href="#" class="menu-btn">אודות</a></li>
-                                <li><a href="#" class="menu-btn">אודות</a></li>
-                                <li><a href="#" class="menu-btn">אודות</a></li>
-        
-                        </ul>
-        
-                </div>
-                <div class="dropdown">
-                        <ul class="clearfix">
-                        <li><a  class="headrop"  href="#" class="menu-btn">אודות</a></li>
-                        <li><img src="images\menu_sep.png" ></li>
-        
-                        </ul>
-                        <ul class="dropdown-content">
-                                <li><a href="#" class="menu-btn">אודות</a></li>
-                                <li><a href="#" class="menu-btn">אודות</a></li>
-                                <li><a href="#" class="menu-btn">אודות</a></li>
-                                <li><a href="#" class="menu-btn">אודות</a></li>
-                                <li><a href="#" class="menu-btn">אודות</a></li>
-                                <li><a href="#" class="menu-btn">אודות</a></li>
-                                <li><a href="#" class="menu-btn">אודות</a></li>
-        
-                        </ul>
-        
-                </div>
-                <div class="dropdown">
-                        <ul class="clearfix">
-                        <li><a  class="headrop"  href="#" class="menu-btn">אודות</a></li>
-                        <li><img src="images\menu_sep.png" ></li>
-        
-                        </ul>
-                        <ul class="dropdown-content">
-                                <li><a href="#" class="menu-btn">אודות</a></li>
-                                <li><a href="#" class="menu-btn">אודות</a></li>
-                                <li><a href="#" class="menu-btn">אודות</a></li>
-                                <li><a href="#" class="menu-btn">אודות</a></li>
-                                <li><a href="#" class="menu-btn">אודות</a></li>
-                                <li><a href="#" class="menu-btn">אודות</a></li>
-                                <li><a href="#" class="menu-btn">אודות</a></li>
-        
-                        </ul>
-        
-                </div>
-                <div class="dropdown">
-                        <ul class="clearfix">
-                        <li><a  class="headrop"  href="#" class="menu-btn">אודות</a></li>
-                        <li><img src="images\menu_sep.png" ></li>
-        
-                        </ul>
-                        <ul class="dropdown-content">
-                                <li><a href="#" class="menu-btn">אודות</a></li>
-                                <li><a href="#" class="menu-btn">אודות</a></li>
-                                <li><a href="#" class="menu-btn">אודות</a></li>
-                                <li><a href="#" class="menu-btn">אודות</a></li>
-                                <li><a href="#" class="menu-btn">אודות</a></li>
-                                <li><a href="#" class="menu-btn">אודות</a></li>
-                                <li><a href="#" class="menu-btn">אודות</a></li>
-        
-                        </ul>
-        
-                </div>
-            
-
-
-        </div>
-    </header>
-    <main>
-<div id="container-fields" class="clearfix">
-        <div class="fieldiv">
-
-
-        </div>
-        <div  id="midfield" class="fieldiv">
+                                                <img src="images\Untitled-3058756287.jpg">
+                                                
+                                                
                 
+                                </div>
 
-        </div>
-        <div class="fieldiv">
-                
+                </div>
 
-        </div>
+        </main>
 
-</div>
-    </main>
-    
 </body>
+
 </html>
