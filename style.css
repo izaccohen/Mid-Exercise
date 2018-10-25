@@ -173,5 +173,28 @@ header {
         font-weight: 600px;
         color:rgb(87, 87, 87);
 }
+footer {
+        height: 45px;
+        background: linear-gradient(to top, rgb(170, 170, 170), rgb(144,144,144) 90%);
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        width: 100%;
+        
+}
+
+footer  a {
+
+        text-decoration: none;
+        color: white;
+        border-right: 2px solid white;
+        padding-left: 10px;
+        padding-right: 10px;
+       
+}
+footer div {
+        padding: 10px 130px;
+}
+#info {color: red;}
 
 
