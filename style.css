@@ -23,15 +23,16 @@ body {
 
 header {
         height: 105px;
+        width: 100%;
         background: linear-gradient(to bottom, rgb(144,144,144) 90%, rgb(170, 170, 170));
         position: relative;
         
 }
 #containerforheader {
         width: 900px;
-        position: absolute;
-        left: 200px;
+        margin: 0px auto;
         height: 100%;
+        position: relative;
 
 
 }
@@ -192,8 +193,11 @@ footer  a {
         padding-right: 10px;
        
 }
-footer div {
+#footerdiv {
         padding: 10px 130px;
+        width: 1200px;
+        margin: 0 auto;
+
 }
 #info {color: red;}
 
