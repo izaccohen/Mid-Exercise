@@ -57,6 +57,7 @@ header {
 
 
 
+
 #logo {
         display: block;
         width: 142px;
@@ -199,6 +200,12 @@ footer  a {
         margin: 0 auto;
 
 }
-#info {color: red;}
+#info {
+        color: red;
+}
+#is {
+        float: left;
+}
+
 
 
